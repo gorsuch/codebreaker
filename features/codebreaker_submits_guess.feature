@@ -31,7 +31,7 @@ Scenario Outline: submit guess
   | 1234 | 5124  | +--  |
   | 1234 | 5123  | ---  |
 
-  Scenario: 4 numbers are correct
+  Scenarios: 4 numbers are correct
   | code | guess | mark |
   | 1234 | 1234  | ++++ |
   | 1234 | 1243  | ++-- |
